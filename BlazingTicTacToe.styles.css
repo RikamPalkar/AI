@@ -2,7 +2,6 @@
 *[b-6qahfogxhj] {
     padding: 0;
     margin: 0;
-    font-family: 'Itim', cursive;
 }
 
 h1[b-6qahfogxhj] {
@@ -10,9 +9,15 @@ h1[b-6qahfogxhj] {
     margin-bottom: 10px;
 }
 
+p[b-6qahfogxhj] {
+    margin-top: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
 .board[b-6qahfogxhj] {
-    width: 33rem;
-    height: 31rem;
+    width: 22rem;
+    height: 22rem;
     margin: auto;
     border: 1px solid white;
     display: flex;
@@ -20,8 +25,8 @@ h1[b-6qahfogxhj] {
 }
 
 .square[b-6qahfogxhj] {
-    width: 10rem;
-    height: 10rem;
+    width: 7rem;
+    height: 7rem;
     border: 1px solid white;
     margin-right: 4px;
     border-radius: 30px;
@@ -35,12 +40,15 @@ h1[b-6qahfogxhj] {
     }
 
 .char[b-6qahfogxhj] {
-    font-size: 5rem;
+    font-size: 3.5rem;
     text-align: center;
     font-weight: 800;
     margin-top: 15%;
     color: #dc685a;
+    font-family: cursive;
 }
+
+
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-dkd9e74nmp] {
     position: relative;
